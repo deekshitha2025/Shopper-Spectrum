@@ -1,0 +1,122 @@
+/* ===========================
+   SHOPPER SPECTRUM THEME
+=========================== */
+
+body{
+    background:#F8F5FF;
+}
+
+/* Main App */
+.main{
+    background:#F8F5FF;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#E6D9FF;
+}
+
+/* Sidebar Text */
+section[data-testid="stSidebar"] *{
+    color:#3F3D56;
+}
+
+/* Headings */
+h1{
+    color:#5E548E;
+    font-weight:bold;
+}
+
+h2{
+    color:#6C63A8;
+}
+
+h3{
+    color:#6C63A8;
+}
+
+/* Buttons */
+.stButton>button{
+
+    background:#7E57C2;
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    height:48px;
+
+    width:100%;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.stButton>button:hover{
+
+    background:#5E35B1;
+
+    color:white;
+
+}
+
+/* Metric Cards */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:18px;
+
+    border-left:6px solid #9575CD;
+
+    box-shadow:0px 4px 10px rgba(0,0,0,0.15);
+
+}
+
+/* Text Input */
+
+.stTextInput>div>div>input{
+
+    border-radius:10px;
+
+    border:2px solid #B39DDB;
+
+}
+
+/* Number Input */
+
+.stNumberInput input{
+
+    border-radius:10px;
+
+}
+
+/* Success */
+
+.stAlert{
+
+    border-radius:12px;
+
+}
+
+/* Tables */
+
+table{
+
+    border-radius:10px;
+
+}
+
+/* Footer */
+
+footer{
+
+    visibility:hidden;
+
+}
